@@ -5,6 +5,7 @@
 SCRIPTDIR=$(cd $(dirname $0) && pwd)
 LOGINDIR=logins
 FILELIST="filelist.txt"
+DBHOSTS="dbhosts.txt"
 #
 #
 checklogin()
@@ -38,7 +39,18 @@ checklogin()
 
 updatedb()
  {
-  echo "Updating DB."
+    #echo "Updating DB."
+    declare -a DBLIST
+    declare -a DBH
+    DBH=($(awk -F ":" '{print $2}' $DBHOSTS))
+    DBLIST=($(psql template1 -h 10.100.93.2 -U postgres -w  -c "\l"|tail -n+4|cut -d'|' -f 1|sed -e '/^ *$/d'|sed -e '$d' | grep -v template | grep -v postgres))
+
+    for i in "${DBH[@]}"
+    do
+     echo "Whole DB: $i"
+    # or do whatever with individual element of the array
+    done
  }
 
-checklogin
+#checklogin
+updatedb
