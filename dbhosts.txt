@@ -1,0 +1,8 @@
+Sergey.Matora  :192.168.75.121
+Nazar          :192.168.75.168
+Artem          :192.168.75.103
+Andrey.T       :192.168.75.82
+oleksiy.s      :192.168.75.149
+Alexey.P       :192.168.75.99
+builserver     :192.168.75.201
+ccmdbserver    :10.100.93.2
