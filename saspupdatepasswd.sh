@@ -6,8 +6,19 @@ SCRIPTDIR=$(cd $(dirname $0) && pwd)
 LOGINDIR=logins
 FILELIST="filelist.txt"
 DBHOSTS="dbhosts.txt"
+source ${SCRIPTDIR}/runsql.sh
 #
-#
+############################################################################################################################
+hostisup()
+ {
+  nc -w 1 -z $1 5432
+  if [ $? -eq 0 ]; then
+  HOSTUP=0
+  else
+  HOSTUP=1
+  fi
+ }
+############################################################################################################################
 checklogin()
  {
    cd ${SCRIPTDIR}/logins
@@ -36,7 +47,7 @@ checklogin()
       fi
     done
  }
-
+###################################################################################################################################
 updatedb()
  {
     #echo "Updating DB."
@@ -47,10 +58,20 @@ updatedb()
 
     for i in "${DBH[@]}"
     do
-     echo "Whole DB: $i"
+     HOSTUP=1 ; hostisup $i
+     if [ $HOSTUP -eq 0 ]
+      then
+       echo "Whole DB: $i"
+       DBLIST=($(psql template1 -h $i -U postgres -w  -c "\l"|tail -n+4|cut -d'|' -f 1|sed -e '/^ *$/d'|sed -e '$d' | grep -v template | grep -v postgres))
+       for j in "${DBLIST[@]}" 
+        do
+         echo "Host $i , DB:$j"
+       done
     # or do whatever with individual element of the array
+     fi
     done
  }
-
+#####################################################################################################################################
 #checklogin
 updatedb
+runsql "NEWLOGIN" "NEWPASSWD"

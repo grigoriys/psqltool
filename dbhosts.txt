@@ -6,3 +6,4 @@ oleksiy.s      :192.168.75.149
 Alexey.P       :192.168.75.99
 builserver     :192.168.75.201
 ccmdbserver    :10.100.93.2
+Ruslan.S       :192.168.75.84

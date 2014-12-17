@@ -1,0 +1,98 @@
+Connection to 192.168.75.121 5432 port [tcp/postgres] succeeded!
+Whole DB: 192.168.75.121
+Host 192.168.75.121 , DB:For_Artem20141021
+Host 192.168.75.121 , DB:ccm
+Host 192.168.75.121 , DB:ccm2
+Host 192.168.75.121 , DB:ccmtest
+Connection to 192.168.75.103 5432 port [tcp/postgres] succeeded!
+Whole DB: 192.168.75.103
+Host 192.168.75.103 , DB:ccm
+Host 192.168.75.103 , DB:ccm_new_ui_static
+Host 192.168.75.103 , DB:ccmtest
+Host 192.168.75.103 , DB:cert-manag
+Host 192.168.75.103 , DB:charts
+Host 192.168.75.103 , DB:hard.cert-manag_dump_old
+Host 192.168.75.103 , DB:static_dump
+Connection to 192.168.75.149 5432 port [tcp/postgres] succeeded!
+Whole DB: 192.168.75.149
+Host 192.168.75.149 , DB:ccm
+Host 192.168.75.149 , DB:ccm.live
+Host 192.168.75.149 , DB:ccm47
+Host 192.168.75.149 , DB:ccm48
+Connection to 192.168.75.201 5432 port [tcp/postgres] succeeded!
+Whole DB: 192.168.75.201
+Host 192.168.75.201 , DB:ccmtest
+Connection to 10.100.93.2 5432 port [tcp/postgres] succeeded!
+Whole DB: 10.100.93.2
+Host 10.100.93.2 , DB:0
+Host 10.100.93.2 , DB:000000ccmqa
+Host 10.100.93.2 , DB:000idptest
+Host 10.100.93.2 , DB:1302ticket
+Host 10.100.93.2 , DB:1329ticket
+Host 10.100.93.2 , DB:1442ticket
+Host 10.100.93.2 , DB:1669ticket
+Host 10.100.93.2 , DB:202_4.5.1
+Host 10.100.93.2 , DB:3.4
+Host 10.100.93.2 , DB:3.4_before_migration
+Host 10.100.93.2 , DB:4.0
+Host 10.100.93.2 , DB:4.3
+Host 10.100.93.2 , DB:4.3.1
+Host 10.100.93.2 , DB:4.4.1
+Host 10.100.93.2 , DB:4.5
+Host 10.100.93.2 , DB:4.5.1
+Host 10.100.93.2 , DB:4.5.1_202
+Host 10.100.93.2 , DB:4.5.2
+Host 10.100.93.2 , DB:4.5.22
+Host 10.100.93.2 , DB:4.5.2_202
+Host 10.100.93.2 , DB:4.5ReliaseVersion
+Host 10.100.93.2 , DB:4.5_Test
+Host 10.100.93.2 , DB:4.6
+Host 10.100.93.2 , DB:4.6.1
+Host 10.100.93.2 , DB:4.6.1_202
+Host 10.100.93.2 , DB:4.6.2
+Host 10.100.93.2 , DB:4.6.3_202
+Host 10.100.93.2 , DB:4.6New
+Host 10.100.93.2 , DB:4.6_202
+Host 10.100.93.2 , DB:4.7
+Host 10.100.93.2 , DB:4.7.1
+Host 10.100.93.2 , DB:4.7.1.2
+Host 10.100.93.2 , DB:4.7.1Discovery
+Host 10.100.93.2 , DB:4.7.1_202
+Host 10.100.93.2 , DB:4.7.1_hotfix
+Host 10.100.93.2 , DB:4.7.2
+Host 10.100.93.2 , DB:4.7.2_202
+Host 10.100.93.2 , DB:4.7202
+Host 10.100.93.2 , DB:4.7_202
+Host 10.100.93.2 , DB:4.8
+Host 10.100.93.2 , DB:4.8.1
+Host 10.100.93.2 , DB:4.8.2
+Host 10.100.93.2 , DB:4.8_202
+Host 10.100.93.2 , DB:4.8_CCM-1625
+Host 10.100.93.2 , DB:5.0
+Host 10.100.93.2 , DB:5.0.1
+Host 10.100.93.2 , DB:5.0ForDev
+Host 10.100.93.2 , DB:5.0_206update
+Host 10.100.93.2 , DB:5.0test
+Host 10.100.93.2 , DB:CCM1303
+Host 10.100.93.2 , DB:For_Andrew
+Host 10.100.93.2 , DB:For_Artem
+Host 10.100.93.2 , DB:LiveCA4.3
+Host 10.100.93.2 , DB:LiveDB
+Host 10.100.93.2 , DB:LiveDB2
+Host 10.100.93.2 , DB:LoadTest
+Host 10.100.93.2 , DB:LoadTest2
+Host 10.100.93.2 , DB:StagingLiveCA
+Host 10.100.93.2 , DB:apavlenko_test
+Host 10.100.93.2 , DB:auto
+Host 10.100.93.2 , DB:auto48
+Host 10.100.93.2 , DB:autotest
+Host 10.100.93.2 , DB:autotest_1616
+Host 10.100.93.2 , DB:dump
+Host 10.100.93.2 , DB:dump_cluster
+Host 10.100.93.2 , DB:fakesasp
+Host 10.100.93.2 , DB:idptest
+Host 10.100.93.2 , DB:jira
+Host 10.100.93.2 , DB:liveDumpForDelete5
+Host 10.100.93.2 , DB:live_for_delete
+Host 10.100.93.2 , DB:passsaspt3
+Host 10.100.93.2 , DB:qajccmreport
